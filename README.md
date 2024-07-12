@@ -1,21 +1,22 @@
 # NUTRITION_APP-USING-GEMINI-API
+**Complete Grandeur End to End Ai nutrional Assistant App from scratch till deployment**
 
 # Overview
-The AI Nutrition App is designed to help users maintain a balanced and personalized diet tailored to their unique health goals and dietary preferences. Leveraging AI technology, the app provides customized meal plans, accurate nutritional analysis, and expert guidance to enhance users' overall health and well-being.
+The AI Nutrition App is designed to help users maintain a balanced and personalized diet tailored to their unique health goals and dietary preferences.<br/>Leveraging AI technology, the app provides customized meal plans, accurate nutritional analysis, and expert guidance to enhance users' overall health and well-being.
 
 # Objective
 Our goal is to create an AI-driven nutrition app that simplifies the process of eating healthier by offering personalized meal plans, easy food tracking, and reliable nutritional information.
 
 # Impact
 Solving this problem will:
-Improve users' overall health and well-being by providing tailored nutrition plans.
-Save users time and effort in tracking their food intake and planning meals.
-Enhance users' ability to make informed dietary choices with access to reliable nutritional information.
-Increase users' motivation and adherence to healthy eating habits through continuous support and guidance.
+Improve users' overall health and well-being by providing tailored nutrition plans. <br/>
+Save users time and effort in tracking their food intake and planning meals. <br/>
+Enhance users' ability to make informed dietary choices with access to reliable nutritional information. <br/>
+Increase users' motivation and adherence to healthy eating habits through continuous support and guidance. <br/>
 
 # Proposed Solution
-AI Integration: Utilize AI to generate personalized meal plans and provide accurate nutritional analysis.
-Data-Driven Recommendations: Incorporate reliable and scientifically-backed nutritional data to inform users.
+AI Integration: Utilize AI to generate personalized meal plans and provide accurate nutritional analysis. <br/>
+Data-Driven Recommendations: Incorporate reliable and scientifically-backed nutritional data to inform users. <br/>
 
 # Usage Examples
 Description of screenshot 1
@@ -68,15 +69,16 @@ pip install -r requirements.txt
 # 4.**Set up your Google API Key and other environment variables as needed.** <br/>
 Obtain an API key from makersuite google for gemini pro vision api key: <br/>
 Visit the AI Studio website (https://aistudio.google.com/app/apikey) and sign up in order to obtain the API key access. <br/>
-Follow the instructions provided by AI studio Google to obtain an API key.
-Copy the API key as you will need it in the next step.
-Add your API key to the app.py file:
-Open the app.py file in a text editor.
-Locate the line that says genai.api_key = 'YOUR_API_KEY'.
-Replace 'YOUR_API_KEY' with the API key you obtained from AIStudio.
+Follow the instructions provided by AI studio Google to obtain an API key.<br/>
+Copy the API key as you will need it in the next step.<br/>
+Add your API key to the app.py file:<br/>
+Open the app.py file in a text editor.<br/>
+Locate the line that says genai.api_key = 'YOUR_API_KEY'.<br/>
+Replace 'YOUR_API_KEY' with the API key you obtained from AIStudio.<br/>
 Save the app.py file.
 
-# Alternative:
+# Alternative/ Best option:
+Create a ".env" file to your environment and add your api key as google_api_key="(Put Your api key, please dont forget to include as a string)" <br/>
 use the below code: 
 <pre>
 <code id="Loading-api">
