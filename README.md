@@ -20,9 +20,11 @@ Data-Driven Recommendations: Incorporate reliable and scientifically-backed nutr
 
 # Usage Examples
 **sample 1** <br/>
+
 ![WhatsApp Image 2024-07-10 at 12 00 54_3ff2be55](https://github.com/user-attachments/assets/0ee0c07d-560c-4b44-a1b4-27e0f6e59330)
 
 **sample 2** <br/>
+
 ![WhatsApp Image 2024-07-10 at 12 00 55_4d1e7227](https://github.com/user-attachments/assets/943c5884-7fb5-44b3-8975-d9307d27e54b)
 
 
@@ -104,8 +106,7 @@ streamlit run app.py
 You can view your web browser at (http://localhost:5000) (or http://127.0.0.1:5000) or at a recommended browser link in the comman prompt console. <br/>
 Register your desired meal picture and a prompt about it start receiving personalized meal plans and tracking your nutrition.
 
-**Contributing** <br/>
-
+# **Contributing** 
 We welcome contributions to enhance the AI Nutrition App. Please fork the repository, create a new branch for your feature or bug fix, and submit a pull request. Make sure to follow our coding guidelines and include appropriate tests.
 
 # **Contributing Guidelines**
@@ -133,5 +134,9 @@ git push origin feature-branch
 
 **Create a new Pull Request.**
 
-**Acknowledgements** <br/>
+# **License**
+Apache License <br/>
+Version 2.0, January 2004
+
+# **Acknowledgements**
 We would like to thank all contributors and the open-source community for their valuable inputs and support.
