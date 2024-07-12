@@ -17,28 +17,37 @@ Increase users' motivation and adherence to healthy eating habits through contin
 AI Integration: Utilize AI to generate personalized meal plans and provide accurate nutritional analysis.
 Data-Driven Recommendations: Incorporate reliable and scientifically-backed nutritional data to inform users.
 
-# Installation
+# Usage Examples
+Description of screenshot 1
 
-**Clone the repository:** <br/>
 
+Description of screenshot 2
+
+# Step by Step Installation
+
+# 0.**Prerequisites**
+Python 3.x <br/>
+An internet connection for API calls and hosting the app <br/>
+
+# 1.**Clone the repository:** 
 git clone https://github.com/your-username/ai-nutrition-app.git
 
-**Navigate to the project directory:** <br/>
-
+# 2.**Navigate to the project directory:** 
 cd ai-nutrition-app
 
-**Install the required libraries:** <br/>
-
+# 3.**Install the required libraries:** <br/>
+<pre>
+<code id="install-code">
 pip install -r requirements.txt
+</code>
+</pre>
 
-**Set up your Google API Key and other environment variables as needed.** <br/>
+# 4.**Set up your Google API Key and other environment variables as needed.** <br/>
 
-**Run the application:** <br/>
-
+# 5.**Run the application:** <br/>
 python app.py
 
-**Access the app through your web browser at [http://localhost:5000.](http://localhost:8501)** <br/>
-
+# 6.**Access the app through your web browser at (http://localhost:5000) (or http://127.0.0.1:5000)** <br/>
 Register your desired meal picture and a prompt about it start receiving personalized meal plans and tracking your nutrition.
 
 **Contributing** <br/>
