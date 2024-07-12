@@ -30,7 +30,40 @@ Python 3.x <br/>
 An internet connection for API calls and hosting the app <br/>
 
 # 1.**Clone the repository:** 
-git clone https://github.com/your-username/ai-nutrition-app.git
+# AI Nutrition App
+
+## Clone the Repository
+
+To clone the repository, use the following command:
+
+<pre>
+<code id="clone-code-keerthi">
+git clone https://github.com/keerthikrish10/NUTRITION_APP-USING-GEMINI-API.git
+</code>
+</pre>
+
+<button onclick="copyCode('clone-code-keerthi')">Copy</button>
+
+<pre>
+<code id="clone-code-aniruddhan">
+git clone https://github.com/Aniruddhan15/NUTRITION_APP-USING-GEMINI-API.git
+</code>
+</pre>
+
+<button onclick="copyCode('clone-code-aniruddhan')">Copy</button>
+
+<script>
+  function copyCode(elementId) {
+    var copyText = document.getElementById(elementId).innerText;
+    navigator.clipboard.writeText(copyText).then(function() {
+      alert('Code copied to clipboard');
+    }, function(err) {
+      alert('Failed to copy text: ', err);
+    });
+  }
+</script>
+
+
 
 # 2.**Navigate to the project directory:** 
 cd ai-nutrition-app
