@@ -52,18 +52,6 @@ git clone https://github.com/Aniruddhan15/NUTRITION_APP-USING-GEMINI-API.git
 
 <button onclick="copyCode('clone-code-aniruddhan')">Copy</button>
 
-<script>
-  function copyCode(elementId) {
-    var copyText = document.getElementById(elementId).innerText;
-    navigator.clipboard.writeText(copyText).then(function() {
-      alert('Code copied to clipboard');
-    }, function(err) {
-      alert('Failed to copy text: ', err);
-    });
-  }
-</script>
-
-
 
 # 2.**Navigate to the project directory:** 
 cd ai-nutrition-app
@@ -80,12 +68,38 @@ pip install -r requirements.txt
 # 5.**Run the application:** <br/>
 python app.py
 
-# 6.**Access the app through your web browser at (http://localhost:5000) (or http://127.0.0.1:5000)** <br/>
+ # 6.**Access the app** 
+You can view your web browser at (http://localhost:5000) (or http://127.0.0.1:5000) or at a recommended browser link in the comman prompt console. <br/>
 Register your desired meal picture and a prompt about it start receiving personalized meal plans and tracking your nutrition.
 
 **Contributing** <br/>
 
 We welcome contributions to enhance the AI Nutrition App. Please fork the repository, create a new branch for your feature or bug fix, and submit a pull request. Make sure to follow our coding guidelines and include appropriate tests.
+
+# **Contributing Guidelines**
+Fork the repository.Create a new branch.
+<pre>
+<code id="Fork the repository">
+git checkout -b feature-branch
+</code>
+</pre>
+
+**Make your changes.**
+**Commit your changes.**
+<pre>
+<code id="Commit the changes">
+git commit -am 'Add new feature'
+</code>
+</pre>
+
+**Push to the branch** 
+<pre>
+<code id="Push to origin">
+git push origin feature-branch
+</code>
+</pre>
+
+**Create a new Pull Request.**
 
 **Acknowledgements** <br/>
 We would like to thank all contributors and the open-source community for their valuable inputs and support.
