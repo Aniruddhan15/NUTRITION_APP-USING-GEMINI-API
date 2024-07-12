@@ -140,3 +140,7 @@ Version 2.0, January 2004
 
 # **Acknowledgements**
 We would like to thank all contributors and the open-source community for their valuable inputs and support.
+
+# Contact:
+Keerthi Krishna : skeerthi.krish@gmail.com <br/>
+Aniruddhan N : aniruddhan26@gmail.com
