@@ -19,10 +19,12 @@ AI Integration: Utilize AI to generate personalized meal plans and provide accur
 Data-Driven Recommendations: Incorporate reliable and scientifically-backed nutritional data to inform users. <br/>
 
 # Usage Examples
-Description of screenshot 1
+sample 1
+![WhatsApp Image 2024-07-10 at 12 00 54_3ff2be55](https://github.com/user-attachments/assets/0ee0c07d-560c-4b44-a1b4-27e0f6e59330)
 
+sample 2
+![WhatsApp Image 2024-07-10 at 12 00 55_4d1e7227](https://github.com/user-attachments/assets/943c5884-7fb5-44b3-8975-d9307d27e54b)
 
-Description of screenshot 2
 
 # Step by Step Installation
 
@@ -93,6 +95,12 @@ genai.configure(api_key=os.getenv("google_api_key"))
 python app.py
 
  # 6.**Access the app** 
+To start Streamlit web browser, use the following command:
+<pre>
+<code id="start-streamlit">
+streamlit run app.py
+</code>
+</pre>
 You can view your web browser at (http://localhost:5000) (or http://127.0.0.1:5000) or at a recommended browser link in the comman prompt console. <br/>
 Register your desired meal picture and a prompt about it start receiving personalized meal plans and tracking your nutrition.
 
