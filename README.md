@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 python app.py
 
-**Access the app through your web browser at http://localhost:5000.** <br/>
+**Access the app through your web browser at [http://localhost:5000.](http://localhost:8501)** <br/>
 
 Register your desired meal picture and a prompt about it start receiving personalized meal plans and tracking your nutrition.
 
