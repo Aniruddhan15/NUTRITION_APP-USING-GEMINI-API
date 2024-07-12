@@ -27,6 +27,8 @@ Description of screenshot 2
 
 # 0.**Prerequisites**
 Python 3.x <br/>
+AIStudio Account <br/>
+Streamlit - UI <br/>
 An internet connection for API calls and hosting the app <br/>
 
 # 1.**Clone the repository:** 
@@ -64,6 +66,26 @@ pip install -r requirements.txt
 </pre>
 
 # 4.**Set up your Google API Key and other environment variables as needed.** <br/>
+Obtain an API key from makersuite google for gemini pro vision api key: <br/>
+Visit the AI Studio website (https://aistudio.google.com/app/apikey) and sign up in order to obtain the API key access. <br/>
+Follow the instructions provided by AI studio Google to obtain an API key.
+Copy the API key as you will need it in the next step.
+Add your API key to the app.py file:
+Open the app.py file in a text editor.
+Locate the line that says genai.api_key = 'YOUR_API_KEY'.
+Replace 'YOUR_API_KEY' with the API key you obtained from AIStudio.
+Save the app.py file.
+
+# Alternative:
+use the below code: 
+<pre>
+<code id="Loading-api">
+from dotenv import load_dotenv
+load_dotenv()
+genai.configure(api_key=os.getenv("google_api_key"))
+</code>
+</pre>
+
 
 # 5.**Run the application:** <br/>
 python app.py
