@@ -1,5 +1,5 @@
 # NUTRITION_APP-USING-GEMINI-API
-**Complete Grandeur End to End Ai nutrional Assistant App from scratch till deployment**
+**Complete Grandeur End to End AI Nutrional Assistant App from scratch till deployment**
 
 # Overview
 The AI Nutrition App is designed to help users maintain a balanced and personalized diet tailored to their unique health goals and dietary preferences.<br/>Leveraging AI technology, the app provides customized meal plans, accurate nutritional analysis, and expert guidance to enhance users' overall health and well-being.
@@ -19,11 +19,11 @@ AI Integration: Utilize AI to generate personalized meal plans and provide accur
 Data-Driven Recommendations: Incorporate reliable and scientifically-backed nutritional data to inform users. <br/>
 
 # Usage Examples
-**sample 1** <br/>
+**Sample 1** <br/>
 
 ![WhatsApp Image 2024-07-10 at 12 00 54_3ff2be55](https://github.com/user-attachments/assets/0ee0c07d-560c-4b44-a1b4-27e0f6e59330)
 
-**sample 2** <br/>
+**Sample 2** <br/>
 
 ![WhatsApp Image 2024-07-10 at 12 00 55_4d1e7227](https://github.com/user-attachments/assets/943c5884-7fb5-44b3-8975-d9307d27e54b)
 
